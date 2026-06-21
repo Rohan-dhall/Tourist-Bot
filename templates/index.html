@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist AI Assistant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f3443 0%, #34e89e 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .chat-container {
+            width: 550px;
+            max-width: 100%;
+            height: 85vh;
+            max-height: 800px;
+            background: white;
+            border-radius: 18px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.25);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(90deg, #11998e, #38ef7d);
+            color: white;
+            padding: 18px 22px;
+            font-size: 1.4rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            letter-spacing: 0.5px;
+        }
+
+        .messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 16px 18px;
+            background: #f9fafb;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .message {
+            display: flex;
+            flex-direction: column;
+            max-width: 85%;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .message.user {
+            align-self: flex-end;
+            align-items: flex-end;
+        }
+
+        .message.bot {
+            align-self: flex-start;
+            align-items: flex-start;
+        }
+
+        .bubble {
+            padding: 12px 18px;
+            border-radius: 20px;
+            line-height: 1.5;
+            word-break: break-word;
+            white-space: pre-wrap;
+            font-size: 0.95rem;
+        }
+
+        .user .bubble {
+            background: #11998e;
+            color: white;
+            border-bottom-right-radius: 4px;
+        }
+
+        .bot .bubble {
+            background: #f0f0f0;
+            color: #111827;
+            border-bottom-left-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .bot .bubble a {
+            color: #11998e;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .bot .bubble a:hover {
+            text-decoration: underline;
+        }
+
+        .input-area {
+            display: flex;
+            padding: 14px 16px;
+            background: white;
+            border-top: 1px solid #e5e7eb;
+            gap: 10px;
+        }
+
+        .input-area input {
+            flex: 1;
+            border: 2px solid #e5e7eb;
+            border-radius: 28px;
+            padding: 12px 18px;
+            font-size: 0.95rem;
+            outline: none;
+            transition: border 0.2s;
+        }
+
+        .input-area input:focus {
+            border-color: #11998e;
+        }
+
+        .input-area button {
+            background: #11998e;
+            border: none;
+            color: white;
+            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s, transform 0.1s;
+        }
+
+        .input-area button:hover {
+            background: #0d7a6f;
+            transform: scale(1.05);
+        }
+
+        .input-area button:active {
+            transform: scale(0.95);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .typing-indicator {
+            align-self: flex-start;
+            background: #f0f0f0;
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: flex;
+            gap: 6px;
+        }
+
+        .typing-indicator span {
+            width: 8px;
+            height: 8px;
+            background: #888;
+            border-radius: 50%;
+            display: inline-block;
+            animation: bounce 1.4s infinite;
+        }
+
+        .typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+        .typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes bounce {
+            0%, 60%, 100% { transform: translateY(0); }
+            30% { transform: translateY(-8px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="header">🌴 Tourist AI Bot</div>
+        <div class="messages" id="messages">
+            <div class="message bot">
+                <div class="bubble">
+                    Hello! 👋 I'm your travel assistant. Ask me about:
+                    <br>✨ Activities
+                    <br>🏨 Hotels
+                    <br>✈️ Flights
+                    <br>🚂 Trains
+                    <br><br>Example: "Best hotels in Jaipur" or "Cheapest flights from Kerala to Delhi"
+                </div>
+            </div>
+        </div>
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Type your travel query..." autofocus>
+            <button onclick="sendMessage()">➤</button>
+        </div>
+    </div>
+
+    <script>
+        const messagesDiv = document.getElementById('messages');
+        const input = document.getElementById('userInput');
+
+        // Scroll to bottom
+        function scrollToBottom() {
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+
+        // Add message to chat
+        function addMessage(text, isUser) {
+            const msgDiv = document.createElement('div');
+            msgDiv.className = `message ${isUser ? 'user' : 'bot'}`;
+            const bubble = document.createElement('div');
+            bubble.className = 'bubble';
+            
+            // Convert Markdown links [text](url) to clickable <a>
+            text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
+            // Convert bold **text**
+            text = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            bubble.innerHTML = text;
+            msgDiv.appendChild(bubble);
+            messagesDiv.appendChild(msgDiv);
+            scrollToBottom();
+        }
+
+        // Show typing indicator while waiting for response
+        function showTyping() {
+            const typingDiv = document.createElement('div');
+            typingDiv.className = 'message bot';
+            typingDiv.id = 'typingIndicator';
+            typingDiv.innerHTML = '<div class="typing-indicator"><span></span><span></span><span></span></div>';
+            messagesDiv.appendChild(typingDiv);
+            scrollToBottom();
+        }
+
+        function hideTyping() {
+            const typing = document.getElementById('typingIndicator');
+            if (typing) typing.remove();
+        }
+
+        // Send user query to backend
+        async function sendMessage() {
+            const query = input.value.trim();
+            if (!query) return;
+
+            // Add user message
+            addMessage(query, true);
+            input.value = '';
+            showTyping();
+
+            try {
+                const res = await fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ user_query: query })
+                });
+                const data = await res.json();
+                hideTyping();
+
+                if (data.error) {
+                    addMessage("❌ " + data.error, false);
+                } else {
+                    // Show main response
+                    addMessage(data.response, false);
+                }
+            } catch (e) {
+                hideTyping();
+                addMessage("⚠️ Network error. Please try again.", false);
+            }
+        }
+
+        // Listen for Enter key
+        input.addEventListener('keypress', e => {
+            if (e.key === 'Enter') sendMessage();
+        });
+    </script>
+</body>
+</html>
