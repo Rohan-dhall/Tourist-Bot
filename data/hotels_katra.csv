@@ -1,0 +1,11 @@
+city,name,price_per_night,rating,review_count,booking_link,amenities
+katra,The Vaishno Retreat,2500,4.5,480,https://travel.example.com/hotels/katra/1,WiFi,Restaurant
+katra,Mountain Home,1800,4.2,220,https://travel.example.com/hotels/katra/2,WiFi,AC
+katra,Grand Katra,4000,4.6,380,https://travel.example.com/hotels/katra/3,WiFi,AC,Restaurant
+katra,Sunrise Lodge,1200,3.9,55,https://travel.example.com/hotels/katra/4,WiFi
+katra,Heritage Inn,3000,4.4,170,https://travel.example.com/hotels/katra/5,WiFi,AC,Garden
+katra,Silver Suites,5000,4.7,290,https://travel.example.com/hotels/katra/6,WiFi,AC,Restaurant
+katra,City Palace,2200,4.1,85,https://travel.example.com/hotels/katra/7,WiFi,AC
+katra,Pearl Nivas,2800,4.3,130,https://travel.example.com/hotels/katra/8,WiFi
+katra,Diamond Resort,7000,4.8,340,https://travel.example.com/hotels/katra/9,WiFi,AC,Pool,Restaurant
+katra,The Haveli,1500,3.8,40,https://travel.example.com/hotels/katra/10,WiFi

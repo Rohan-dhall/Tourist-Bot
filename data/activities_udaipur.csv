@@ -1,0 +1,11 @@
+city,name,price,rating,review_count,booking_link,description
+udaipur,Lake Pichola Boat Ride,500,4.8,1100,https://travel.example.com/activities/udaipur/1,Sunset boat ride on Lake Pichola
+udaipur,City Palace Udaipur,700,4.7,980,https://travel.example.com/activities/udaipur/2,Explore the largest palace in Rajasthan
+udaipur,Fateh Sagar Lake,200,4.5,720,https://travel.example.com/activities/udaipur/3,Boating and evening walks
+udaipur,Sajjangarh Monsoon Palace,400,4.6,540,https://travel.example.com/activities/udaipur/4,Panoramic view of the city
+udaipur,Bagore Ki Haveli,300,4.4,390,https://travel.example.com/activities/udaipur/5,Cultural museum and evening show
+udaipur,Vintage Car Museum,350,4.3,280,https://travel.example.com/activities/udaipur/6,See classic Rolls-Royces and more
+udaipur,Kumbhalgarh Fort Day Trip,1500,4.8,620,https://travel.example.com/activities/udaipur/7,Day trip to the Great Wall of India
+udaipur,Cooking Class,1000,4.6,170,https://travel.example.com/activities/udaipur/8,Learn Rajasthani cooking
+udaipur,Sunset Cruise,600,4.9,850,https://travel.example.com/activities/udaipur/9,Romantic sunset cruise on Lake Pichola
+udaipur,Pottery Workshop,800,4.2,85,https://travel.example.com/activities/udaipur/10,Hands-on pottery session

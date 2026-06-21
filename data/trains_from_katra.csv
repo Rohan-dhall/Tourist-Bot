@@ -1,0 +1,8 @@
+departure_city,arrival_city,train_name,price,duration,rating,review_count,booking_link
+katra,jammu,Express 4567,200,1h 30m,4.0,520,https://travel.example.com/trains/katra-jammu
+katra,delhi,Shatabdi 2020,900,8h 0m,4.5,780,https://travel.example.com/trains/katra-delhi
+katra,mumbai,Rajdhani 3000,1600,22h 0m,4.6,640,https://travel.example.com/trains/katra-mumbai
+katra,jaipur,Superfast 6432,1200,12h 30m,4.3,450,https://travel.example.com/trains/katra-jaipur
+katra,agra,Duronto 1400,1100,11h 0m,4.2,370,https://travel.example.com/trains/katra-agra
+katra,udaipur,Vande Bharat 2277,1400,14h 0m,4.7,320,https://travel.example.com/trains/katra-udaipur
+katra,kerala,Garib Rath 700,2000,36h 0m,4.1,280,https://travel.example.com/trains/katra-kerala

@@ -1,0 +1,9 @@
+departure_city,arrival_city,airline,price,duration,rating,review_count,booking_link
+agra,delhi,IndiGo,3500,0h 55m,4.2,620,https://travel.example.com/flights/agra-delhi
+agra,mumbai,SpiceJet,6800,2h 0m,4.4,540,https://travel.example.com/flights/agra-mumbai
+agra,jaipur,Air India,4000,1h 5m,4.1,380,https://travel.example.com/flights/agra-jaipur
+agra,bengaluru,IndiGo,9000,2h 40m,4.5,480,https://travel.example.com/flights/agra-bengaluru
+agra,kerala,Vistara,13000,3h 30m,4.7,610,https://travel.example.com/flights/agra-kerala
+agra,udaipur,SpiceJet,5500,1h 30m,4.3,290,https://travel.example.com/flights/agra-udaipur
+agra,jammu,Air India,5800,1h 45m,3.9,210,https://travel.example.com/flights/agra-jammu
+agra,katra,IndiGo,6200,2h 0m,4.2,320,https://travel.example.com/flights/agra-katra

@@ -1,0 +1,11 @@
+city,name,price,rating,review_count,booking_link,description
+jammu,Raghunath Temple,0,4.7,890,https://travel.example.com/activities/jammu/1,One of the largest temple complexes
+jammu,Bahu Fort,150,4.5,520,https://travel.example.com/activities/jammu/2,Ancient fort with a beautiful garden
+jammu,Mubarak Mandi Palace,200,4.3,380,https://travel.example.com/activities/jammu/3,Explore the royal palace
+jammu,Shivkhori,500,4.6,410,https://travel.example.com/activities/jammu/4,Visit the natural Shivling cave
+jammu,Surinsar Lake,250,4.4,290,https://travel.example.com/activities/jammu/5,Boating and nature walk
+jammu,Patnitop Day Trip,1200,4.8,560,https://travel.example.com/activities/jammu/6,Hill station excursion
+jammu,Mansar Lake,300,4.2,180,https://travel.example.com/activities/jammu/7,Picnic spot and boating
+jammu,Heritage Walk,500,4.5,110,https://travel.example.com/activities/jammu/8,Walk through the old city lanes
+jammu,Trekking,800,4.1,75,https://travel.example.com/activities/jammu/9,Trek in the Shivalik hills
+jammu,Dogra Art Museum,100,4.0,45,https://travel.example.com/activities/jammu/10,See Pahari paintings and artifacts

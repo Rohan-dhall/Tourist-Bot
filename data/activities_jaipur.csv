@@ -1,0 +1,11 @@
+﻿city,name,price,rating,review_count,booking_link,description
+jaipur,City Palace Tour,800,4.7,450,https://travel.example.com/activities/jaipur/1,Explore the majestic City Palace complex
+jaipur,Amber Fort Visit,950,4.5,620,https://travel.example.com/activities/jaipur/2,Guided tour of the magnificent Amber Fort
+jaipur,Elephant Ride,1500,4.2,210,https://travel.example.com/activities/jaipur/3,Ride an elephant up to Amber Fort
+jaipur,Hawa Mahal Visit,600,4.6,580,https://travel.example.com/activities/jaipur/4,See the iconic Palace of Winds
+jaipur,Jantar Mantar,550,4.3,390,https://travel.example.com/activities/jaipur/5,Visit the ancient astronomical observatory
+jaipur,Local Food Walk,1200,4.8,720,https://travel.example.com/activities/jaipur/6,Taste authentic Rajasthani street food
+jaipur,Block Printing Workshop,900,4.4,180,https://travel.example.com/activities/jaipur/7,Learn traditional block printing
+jaipur,Sunset at Nahargarh,700,4.9,890,https://travel.example.com/activities/jaipur/8,Watch sunset from Nahargarh Fort
+jaipur,Cycling Tour,1100,4.0,55,https://travel.example.com/activities/jaipur/9,Cycle through the Pink City’s lanes
+jaipur,Folk Dance Show,500,4.5,410,https://travel.example.com/activities/jaipur/10,Enjoy Rajasthani folk dance and music

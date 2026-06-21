@@ -1,0 +1,9 @@
+departure_city,arrival_city,train_name,price,duration,rating,review_count,booking_link
+kerala,bengaluru,Express 1234,500,10h 0m,4.5,820,https://travel.example.com/trains/kerala-bengaluru
+kerala,mumbai,Rajdhani 3100,1800,24h 0m,4.6,750,https://travel.example.com/trains/kerala-mumbai
+kerala,delhi,Rajdhani 3200,2500,36h 0m,4.7,680,https://travel.example.com/trains/kerala-delhi
+kerala,jaipur,Superfast 6700,1600,30h 0m,4.3,490,https://travel.example.com/trains/kerala-jaipur
+kerala,agra,Garib Rath 750,1900,32h 0m,4.2,380,https://travel.example.com/trains/kerala-agra
+kerala,udaipur,Vande Bharat 2300,1700,28h 0m,4.8,420,https://travel.example.com/trains/kerala-udaipur
+kerala,jammu,Duronto 1600,2200,38h 0m,4.4,340,https://travel.example.com/trains/kerala-jammu
+kerala,katra,Express 5800,2100,40h 0m,4.1,290,https://travel.example.com/trains/kerala-katra

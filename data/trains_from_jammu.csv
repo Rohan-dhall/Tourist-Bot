@@ -1,0 +1,8 @@
+departure_city,arrival_city,train_name,price,duration,rating,review_count,booking_link
+jammu,katra,Express 4578,150,1h 10m,4.1,480,https://travel.example.com/trains/jammu-katra
+jammu,delhi,Shatabdi 2021,950,7h 30m,4.6,820,https://travel.example.com/trains/jammu-delhi
+jammu,mumbai,Rajdhani 3002,1700,22h 0m,4.5,590,https://travel.example.com/trains/jammu-mumbai
+jammu,jaipur,Superfast 6444,1100,11h 30m,4.4,410,https://travel.example.com/trains/jammu-jaipur
+jammu,agra,Duronto 1402,1050,10h 30m,4.3,340,https://travel.example.com/trains/jammu-agra
+jammu,udaipur,Vande Bharat 2280,1350,13h 0m,4.8,380,https://travel.example.com/trains/jammu-udaipur
+jammu,kerala,Garib Rath 710,2100,35h 0m,4.2,290,https://travel.example.com/trains/jammu-kerala

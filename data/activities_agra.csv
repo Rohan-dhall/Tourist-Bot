@@ -1,0 +1,11 @@
+city,name,price,rating,review_count,booking_link,description
+agra,Taj Mahal Sunrise,1200,4.9,1250,https://travel.example.com/activities/agra/1,Witness the Taj Mahal at sunrise
+agra,Agra Fort Tour,800,4.7,680,https://travel.example.com/activities/agra/2,Explore the historic Agra Fort
+agra,Fatehpur Sikri Day Trip,1500,4.6,520,https://travel.example.com/activities/agra/3,Day excursion to the ghost city
+agra,Mehtab Bagh,300,4.3,310,https://travel.example.com/activities/agra/4,Garden with a view of the Taj
+agra,Street Food Tour,900,4.5,470,https://travel.example.com/activities/agra/5,Taste Agra's famous chaats and sweets
+agra,Marble Inlay Workshop,1000,4.8,290,https://travel.example.com/activities/agra/6,Learn the art of marble inlay
+agra,Taj Museum,400,4.2,150,https://travel.example.com/activities/agra/7,See artifacts related to the Taj
+agra,Kalakriti Show,600,4.4,340,https://travel.example.com/activities/agra/8,Watch a cultural extravaganza
+agra,Bike Tour,700,3.9,78,https://travel.example.com/activities/agra/9,Explore Agra on a bicycle
+agra,Cooking Class,1100,4.6,210,https://travel.example.com/activities/agra/10,Learn to cook Mughlai dishes

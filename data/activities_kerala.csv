@@ -1,0 +1,11 @@
+city,name,price,rating,review_count,booking_link,description
+kerala,Backwaters Houseboat,3000,4.9,1500,https://travel.example.com/activities/kerala/1,Overnight stay on a houseboat
+kerala,Kathakali Show,500,4.7,670,https://travel.example.com/activities/kerala/2,Traditional dance performance
+kerala,Munnar Tea Plantation,800,4.8,920,https://travel.example.com/activities/kerala/3,Visit lush tea gardens
+kerala,Periyar Wildlife Safari,1200,4.6,780,https://travel.example.com/activities/kerala/4,Jungle safari in Periyar
+kerala,Alleppey Beach,0,4.4,540,https://travel.example.com/activities/kerala/5,Relax at the beach
+kerala,Ayurveda Massage,1500,4.5,630,https://travel.example.com/activities/kerala/6,Rejuvenating Ayurvedic treatment
+kerala,Kochi Fort Walk,300,4.7,490,https://travel.example.com/activities/kerala/7,Walk through Fort Kochi
+kerala,Varkala Cliff,200,4.3,410,https://travel.example.com/activities/kerala/8,Scenic cliff and beach
+kerala,Banana Leaf Meal,350,4.6,320,https://travel.example.com/activities/kerala/9,Traditional Sadya lunch
+kerala,Snake Boat Race,1000,4.8,290,https://travel.example.com/activities/kerala/10,Watch the thrilling boat race

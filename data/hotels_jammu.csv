@@ -1,0 +1,11 @@
+city,name,price_per_night,rating,review_count,booking_link,amenities
+jammu,Royal Jammu,3500,4.6,560,https://travel.example.com/hotels/jammu/1,WiFi,AC,Pool,Restaurant
+jammu,The Grand,4500,4.7,620,https://travel.example.com/hotels/jammu/2,WiFi,AC,Spa,Gym
+jammu,Mountain Retreat,2500,4.3,210,https://travel.example.com/hotels/jammu/3,WiFi,Restaurant
+jammu,Sunrise Inn,1800,4.1,110,https://travel.example.com/hotels/jammu/4,WiFi,AC
+jammu,Heritage Palace,5000,4.5,390,https://travel.example.com/hotels/jammu/5,WiFi,AC,Garden
+jammu,City Lodge,1200,3.9,65,https://travel.example.com/hotels/jammu/6,WiFi
+jammu,Silver Home,2200,4.2,140,https://travel.example.com/hotels/jammu/7,WiFi,AC
+jammu,Pearl Villas,6000,4.8,450,https://travel.example.com/hotels/jammu/8,WiFi,AC,Pool,Spa,Restaurant
+jammu,Lakeview Suites,3800,4.4,280,https://travel.example.com/hotels/jammu/9,WiFi,AC,Restaurant
+jammu,Diamond Nivas,8000,4.9,510,https://travel.example.com/hotels/jammu/10,WiFi,AC,Pool,Gym

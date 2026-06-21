@@ -1,0 +1,8 @@
+departure_city,arrival_city,train_name,price,duration,rating,review_count,booking_link
+udaipur,delhi,Shatabdi 2025,800,7h 0m,4.7,920,https://travel.example.com/trains/udaipur-delhi
+udaipur,jaipur,Vande Bharat 2290,700,5h 30m,4.8,750,https://travel.example.com/trains/udaipur-jaipur
+udaipur,mumbai,Rajdhani 3010,1500,14h 0m,4.6,680,https://travel.example.com/trains/udaipur-mumbai
+udaipur,agra,Superfast 6555,600,8h 0m,4.4,510,https://travel.example.com/trains/udaipur-agra
+udaipur,kerala,Garib Rath 720,1800,28h 0m,4.3,420,https://travel.example.com/trains/udaipur-kerala
+udaipur,jammu,Duronto 1500,1200,13h 0m,4.5,370,https://travel.example.com/trains/udaipur-jammu
+udaipur,katra,Express 5600,1100,12h 30m,4.2,310,https://travel.example.com/trains/udaipur-katra

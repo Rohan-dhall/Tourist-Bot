@@ -1,0 +1,11 @@
+city,name,price_per_night,rating,review_count,booking_link,amenities
+jaipur,Royal Palace,5500,4.6,620,https://travel.example.com/hotels/jaipur/1,WiFi,AC,Pool,Restaurant
+jaipur,The Heritage Haveli,3500,4.8,480,https://travel.example.com/hotels/jaipur/2,WiFi,AC,Garden
+jaipur,Sunrise Inn,2000,4.2,190,https://travel.example.com/hotels/jaipur/3,WiFi,Restaurant
+jaipur,Lakeview Resort,7000,4.5,340,https://travel.example.com/hotels/jaipur/4,WiFi,AC,Pool,Spa
+jaipur,Mountain Retreat,4500,4.7,560,https://travel.example.com/hotels/jaipur/5,WiFi,AC,Restaurant
+jaipur,Grand Suites,9000,4.9,720,https://travel.example.com/hotels/jaipur/6,WiFi,AC,Pool,Gym
+jaipur,Silver Lodge,1500,3.9,45,https://travel.example.com/hotels/jaipur/7,WiFi,Restaurant
+jaipur,City Nivas,1800,4.1,120,https://travel.example.com/hotels/jaipur/8,WiFi,AC
+jaipur,Pearl Villas,12000,4.8,300,https://travel.example.com/hotels/jaipur/9,WiFi,AC,Pool,Spa,Restaurant
+jaipur,Diamond Home,2500,4.3,210,https://travel.example.com/hotels/jaipur/10,WiFi,AC

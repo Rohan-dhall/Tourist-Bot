@@ -1,0 +1,11 @@
+city,name,price_per_night,rating,review_count,booking_link,amenities
+agra,Taj Resort,4500,4.5,510,https://travel.example.com/hotels/agra/1,WiFi,AC,Pool,Restaurant
+agra,Heritage Inn,2800,4.3,280,https://travel.example.com/hotels/agra/2,WiFi,AC,Garden
+agra,Grand Haveli,6000,4.6,390,https://travel.example.com/hotels/agra/3,WiFi,AC,Spa
+agra,Sunrise Retreat,3200,4.4,190,https://travel.example.com/hotels/agra/4,WiFi,Restaurant
+agra,The Palace,8000,4.8,520,https://travel.example.com/hotels/agra/5,WiFi,AC,Pool,Gym
+agra,City Lodge,1500,3.8,60,https://travel.example.com/hotels/agra/6,WiFi,AC
+agra,Pearl Suites,5200,4.7,410,https://travel.example.com/hotels/agra/7,WiFi,AC,Restaurant
+agra,Blue Villas,3800,4.2,130,https://travel.example.com/hotels/agra/8,WiFi,AC
+agra,Silver Nivas,2200,4.1,95,https://travel.example.com/hotels/agra/9,WiFi
+agra,Diamond Palace,11000,4.9,680,https://travel.example.com/hotels/agra/10,WiFi,AC,Pool,Spa,Restaurant

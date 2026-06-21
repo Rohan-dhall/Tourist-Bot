@@ -1,0 +1,8 @@
+departure_city,arrival_city,train_name,price,duration,rating,review_count,booking_link
+agra,delhi,Shatabdi 2001,650,2h 0m,4.6,1100,https://travel.example.com/trains/agra-delhi
+agra,jaipur,Express 3456,400,4h 30m,4.1,720,https://travel.example.com/trains/agra-jaipur
+agra,mumbai,Rajdhani 2222,1400,14h 0m,4.5,850,https://travel.example.com/trains/agra-mumbai
+agra,udaipur,Vande Bharat 2245,900,7h 0m,4.8,530,https://travel.example.com/trains/agra-udaipur
+agra,kerala,Superfast 6333,1700,28h 0m,4.3,380,https://travel.example.com/trains/agra-kerala
+agra,jammu,Duronto 1333,1000,11h 0m,4.2,450,https://travel.example.com/trains/agra-jammu
+agra,katra,Garib Rath 600,700,9h 30m,4.0,290,https://travel.example.com/trains/agra-katra

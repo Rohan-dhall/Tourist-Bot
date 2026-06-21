@@ -1,0 +1,11 @@
+city,name,price_per_night,rating,review_count,booking_link,amenities
+udaipur,Lake Palace View,9000,4.8,850,https://travel.example.com/hotels/udaipur/1,WiFi,AC,Pool,Spa,Restaurant
+udaipur,The Heritage Haveli,4500,4.6,590,https://travel.example.com/hotels/udaipur/2,WiFi,AC,Garden
+udaipur,Grand Udaipur,6500,4.7,480,https://travel.example.com/hotels/udaipur/3,WiFi,AC,Pool,Restaurant
+udaipur,Sunrise Retreat,2500,4.3,200,https://travel.example.com/hotels/udaipur/4,WiFi,Restaurant
+udaipur,City Palace Inn,3800,4.5,320,https://travel.example.com/hotels/udaipur/5,WiFi,AC
+udaipur,Mountain Lodge,1800,4.1,85,https://travel.example.com/hotels/udaipur/6,WiFi
+udaipur,Silver Suites,5500,4.4,370,https://travel.example.com/hotels/udaipur/7,WiFi,AC,Restaurant
+udaipur,Pearl Nivas,7200,4.8,410,https://travel.example.com/hotels/udaipur/8,WiFi,AC,Spa
+udaipur,Diamond Palace,12000,4.9,620,https://travel.example.com/hotels/udaipur/9,WiFi,AC,Pool,Gym,Restaurant
+udaipur,The Villa,3000,4.2,150,https://travel.example.com/hotels/udaipur/10,WiFi,AC

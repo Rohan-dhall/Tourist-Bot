@@ -1,0 +1,11 @@
+city,name,price,rating,review_count,booking_link,description
+katra,Vaishno Devi Yatra,0,4.8,5000,https://travel.example.com/activities/katra/1,Pilgrimage to the holy shrine
+katra,Helicopter Ride,2500,4.5,380,https://travel.example.com/activities/katra/2,Helicopter service to the shrine
+katra,Bhairavnath Temple,100,4.6,670,https://travel.example.com/activities/katra/3,Visit the Bhairavnath temple
+katra,Ardhkuwari Visit,50,4.4,450,https://travel.example.com/activities/katra/4,See the holy cave temple
+katra,Nature Walk,200,4.2,120,https://travel.example.com/activities/katra/5,Walk through the scenic trails
+katra,Shopping at Market,0,4.0,85,https://travel.example.com/activities/katra/6,Buy dry fruits and souvenirs
+katra,Local Food,300,4.3,170,https://travel.example.com/activities/katra/7,Try local Dogra cuisine
+katra,Paragliding,1800,4.7,95,https://travel.example.com/activities/katra/8,Soar over the mountains
+katra,Cable Car,400,4.1,60,https://travel.example.com/activities/katra/9,Ride the cable car to Bhawan
+katra,Baba Dhansar,350,4.5,140,https://travel.example.com/activities/katra/10,Visit the scenic waterfall and temple

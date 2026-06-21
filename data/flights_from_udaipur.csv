@@ -1,0 +1,9 @@
+departure_city,arrival_city,airline,price,duration,rating,review_count,booking_link
+udaipur,delhi,IndiGo,5000,1h 20m,4.5,820,https://travel.example.com/flights/udaipur-delhi
+udaipur,mumbai,Air India,6500,1h 50m,4.6,680,https://travel.example.com/flights/udaipur-mumbai
+udaipur,jaipur,SpiceJet,4000,1h 0m,4.3,490,https://travel.example.com/flights/udaipur-jaipur
+udaipur,agra,IndiGo,4500,1h 10m,4.1,310,https://travel.example.com/flights/udaipur-agra
+udaipur,kerala,Vistara,9000,2h 40m,4.7,570,https://travel.example.com/flights/udaipur-kerala
+udaipur,bengaluru,Air India,7500,2h 10m,4.4,410,https://travel.example.com/flights/udaipur-bengaluru
+udaipur,jammu,SpiceJet,6200,1h 55m,4.2,280,https://travel.example.com/flights/udaipur-jammu
+udaipur,katra,IndiGo,6800,2h 0m,4.3,340,https://travel.example.com/flights/udaipur-katra

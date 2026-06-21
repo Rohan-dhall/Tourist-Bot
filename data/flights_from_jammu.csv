@@ -1,0 +1,9 @@
+departure_city,arrival_city,airline,price,duration,rating,review_count,booking_link
+jammu,delhi,IndiGo,4500,1h 15m,4.4,780,https://travel.example.com/flights/jammu-delhi
+jammu,mumbai,Air India,8200,2h 20m,4.6,680,https://travel.example.com/flights/jammu-mumbai
+jammu,katra,SpiceJet,2000,0h 30m,4.1,210,https://travel.example.com/flights/jammu-katra
+jammu,jaipur,IndiGo,5800,1h 45m,4.3,460,https://travel.example.com/flights/jammu-jaipur
+jammu,agra,Air India Express,5200,1h 40m,4.0,280,https://travel.example.com/flights/jammu-agra
+jammu,udaipur,Vistara,7200,2h 5m,4.5,390,https://travel.example.com/flights/jammu-udaipur
+jammu,kerala,Air India,10500,3h 15m,4.7,540,https://travel.example.com/flights/jammu-kerala
+jammu,bengaluru,SpiceJet,9000,2h 45m,4.4,320,https://travel.example.com/flights/jammu-bengaluru
